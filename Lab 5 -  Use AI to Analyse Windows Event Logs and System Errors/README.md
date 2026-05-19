@@ -83,7 +83,8 @@ The goal is not to use AI instead of Event Viewer. The goal is to use Event View
 
 Press Win + R to open the Run dialog. Type eventvwr.msc and press OK.
 
-![01 Open Event Viewer Run Dialog](screenshots/01_open_eventvwr_run_dialog.png)
+<img width="396" height="202" alt="01 opening event viewer" src="https://github.com/user-attachments/assets/19dd7f5f-4388-40f4-adae-859dd0f705b0" />
+
 
 > **Red highlight:** The Run dialog input field containing eventvwr.msc. This is the fastest way to open Event Viewer, including from a remote desktop session.
 >
@@ -97,7 +98,8 @@ Press Win + R to open the Run dialog. Type eventvwr.msc and press OK.
 
 Navigate to Windows Logs - System. In the Actions panel, click Filter Current Log.
 
-![02 Filter System Log Critical Error](screenshots/02_filter_system_log_critical_error.png)
+<img width="541" height="552" alt="02 filtering the logs" src="https://github.com/user-attachments/assets/17810eaf-793f-423d-a11e-2a816846a024" />
+
 
 > **Red highlight (checkboxes):** Critical and Error checked. This filters out Informational, Warning, and Verbose events. The 42,238 total System log entries reduce to 118 when filtered to Critical and Error only.
 >
@@ -113,7 +115,8 @@ Navigate to Windows Logs - System. In the Actions panel, click Filter Current Lo
 
 After applying the filter, 118 results appear. All visible rows are the same event.
 
-![03 System Log Event 7034 Results](screenshots/03_system_log_event7034_results.png)
+<img width="1163" height="641" alt="03 eventviewer showing log of the last 7 days" src="https://github.com/user-attachments/assets/2ad65c55-1b4e-4d8e-a48c-209b17ed9491" />
+
 
 > **Orange highlight:** Filter summary bar - "Filtered: Log: System; Levels: Critical, Error; Source: Date Range: Last 7 days. Number of events: 118."
 >
@@ -131,7 +134,8 @@ After applying the filter, 118 results appear. All visible rows are the same eve
 
 Select all visible events (Ctrl+A), then right-click for the context menu.
 
-![04 Save Selected Events Context Menu](screenshots/04_save_selected_events_context_menu.png)
+<img width="911" height="444" alt="04 save selected events" src="https://github.com/user-attachments/assets/4ef6972d-af5f-4333-b0e7-e4f9ba893327" />
+
 
 > **Red highlight:** "Save Selected Events..." in the context menu. This exports only the selected events, not the entire log.
 >
@@ -145,7 +149,8 @@ Select all visible events (Ctrl+A), then right-click for the context menu.
 
 Name the file "Sample Log file.csv" and set format to CSV (Comma Separated).
 
-![05 Save As CSV Dialog](screenshots/05_save_as_csv_dialog.png)
+<img width="661" height="158" alt="05 save sample log file as Csv" src="https://github.com/user-attachments/assets/fd140624-2558-4b38-aa5e-e06471b7d26b" />
+
 
 > **Red highlight:** The file name field - "Sample Log file.csv". A descriptive name avoids confusion when attaching to Claude.
 >
@@ -161,7 +166,8 @@ Name the file "Sample Log file.csv" and set format to CSV (Comma Separated).
 
 Open the saved CSV in WPS Office. Review each column for personally identifiable information.
 
-![06 System Log CSV Sanitize Review](screenshots/06_system_log_csv_sanitize_review.png)
+<img width="1365" height="694" alt="06 checking to sanitize sensitive info" src="https://github.com/user-attachments/assets/f734dcb5-3705-4b6b-b2c5-b13de30a073a" />
+
 
 > **Blue highlight:** Header row - Level, Date and Time, Source, Event ID, Task Category, followed by message columns.
 >
@@ -181,7 +187,8 @@ Open the saved CSV in WPS Office. Review each column for personally identifiable
 
 Attach the sanitised CSV to a new Claude conversation with the structured analysis prompt.
 
-![07 Claude System Log Prompt](screenshots/07_claude_system_log_prompt.png)
+<img width="1053" height="360" alt="07 prompt to Ai" src="https://github.com/user-attachments/assets/cbd04dc7-810a-4d23-b228-fb98476512c9" />
+
 
 > **Orange highlight:** The CSV file attachment - "Sample Log file.csv" shown as a CSV card. Claude reads the full contents including all rows and columns.
 >
@@ -217,7 +224,8 @@ Navigate to Windows Logs - Application and apply Critical + Error filter for the
 
 Bonjour Service Event ID 100 is the dominant Application log error. Select relevant entries and save.
 
-![09 App Log Save Selected Context Menu](screenshots/09_app_log_save_selected_context_menu.png)
+<img width="918" height="454" alt="09 save selected log events " src="https://github.com/user-attachments/assets/0fc85010-8c7f-4fce-b672-aad214a9177f" />
+
 
 > **Red highlight:** "Save Selected Events..." context menu option - same method as the System log export.
 >
@@ -235,7 +243,8 @@ Bonjour Service Event ID 100 is the dominant Application log error. Select relev
 
 Save selected Application log events as CSV.
 
-![10 App Log Save As CSV Dialog](screenshots/10_app_log_save_as_csv_dialog.png)
+<img width="659" height="157" alt="10 saving app log files" src="https://github.com/user-attachments/assets/f40bd10e-d5fe-48f0-b414-e10df2627275" />
+
 
 > **Red highlight:** File name "Sample app logs .csv" - distinct from the System log CSV to prevent confusion.
 >
@@ -253,7 +262,8 @@ Save selected Application log events as CSV.
 
 Open the Application log CSV in WPS Office. Review for PII before uploading.
 
-![11 App Log CSV Sanitize Review](screenshots/11_app_log_csv_sanitize_review.png)
+<img width="1362" height="532" alt="11 checking to sanitize sensitive info" src="https://github.com/user-attachments/assets/efe01555-be47-4b6f-b4f5-4087acc32c1f" />
+
 
 > **Blue highlight:** Header row - Level, Date and Time, Source, Event ID, Task Category, message column.
 >
