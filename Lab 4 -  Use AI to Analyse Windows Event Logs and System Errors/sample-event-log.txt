@@ -1,0 +1,38 @@
+# sample-event-log.txt
+# Sanitised Windows Event Log - Lab 05
+# System log: Event ID 7034 - Camera Frame Server crash loop
+# Machine: WORKSTATION01 (Shark007 - hostname sanitised to generic)
+# Date range: 5/13/2026 - 5/14/2026
+# Sanitisation: no usernames found; machine hostname retained (non-PII)
+
+--- SYSTEM LOG (Event ID 7034) ---
+
+Level: Error | Time: 5/14/2026 11:18:39 AM | Source: Service Control Manager | ID: 7034
+Message: The Windows Camera Frame Server service terminated unexpectedly. It has done this 94 time(s).
+
+Level: Error | Time: 5/13/2026 9:25:21 PM | Source: Service Control Manager | ID: 7034
+Message: The Windows Camera Frame Server service terminated unexpectedly. It has done this 93 time(s).
+
+Level: Error | Time: 5/13/2026 9:22:55 PM | Source: Service Control Manager | ID: 7034
+Message: The Windows Camera Frame Server service terminated unexpectedly. It has done this 73 time(s).
+
+[Entries 92 through 74 follow same pattern with decrementing counter]
+
+--- APPLICATION LOG (Event ID 100) ---
+
+Level: Error | Time: 5/14/2026 12:10:08 PM | Source: Bonjour Service | ID: 100
+Message: Local Hostname Shark007.local already in use; will try Shark007-2.local instead
+
+Level: Error | Time: 5/14/2026 12:10:08 PM | Source: Bonjour Service | ID: 100
+Message: mDNSCoreReceiveResponse: ProbeCount 2; will deregister  16 Shark007.local. AAAA FE80:0000:0000:0000:2155:DB31:6ABC:BDE6
+
+Level: Error | Time: 5/14/2026 11:18:31 AM | Source: Bonjour Service | ID: 100
+Message: Local Hostname Shark007.local already in use; will try Shark007-2.local instead
+
+Level: Error | Time: 5/14/2026 11:18:31 AM | Source: Bonjour Service | ID: 100
+Message: mDNSCoreReceiveResponse: ProbeCount 1; will deregister  16 Shark007.local. AAAA FE80:0000:0000:0000:2155:DB31:6ABC:BDE6
+
+SANITISATION NOTES:
+- No usernames in either log
+- Shark007 is machine-assigned hostname, not a personal name - retained
+- IPv6 link-local addresses (FE80:...) do not expose user identity
