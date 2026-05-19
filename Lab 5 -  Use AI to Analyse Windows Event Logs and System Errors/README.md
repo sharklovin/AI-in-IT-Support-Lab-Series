@@ -135,9 +135,7 @@ Select all visible events (Ctrl+A), then right-click for the context menu.
 
 > **Red highlight:** "Save Selected Events..." in the context menu. This exports only the selected events, not the entire log.
 >
-> **Orange highlight:** "Selected Events (23)" count bar at the bottom, confirming 23 events are selected.
->
-> **Blue highlight:** The highlighted event rows spanning 5/13/2026 to 5/14/2026 - all Event ID 7034.
+
 
 ---
 
