@@ -2,10 +2,6 @@
 
 > **Author:** Nnamso Mkpong
 >
-> **Domain:** AI Foundations - Claude.ai and ChatGPT for IT Support
->
-> **Environment:** claude.ai (Free plan) and chat.openai.com (Free plan) - Chrome browser
->
 > **Completed:** July 2026
 
 
