@@ -206,7 +206,8 @@ Attach the sanitised CSV to a new Claude conversation with the structured analys
 
 Navigate to Windows Logs - Application and apply Critical + Error filter for the last 7 days.
 
-![08 Filter Application Log Critical Error](screenshots/08_filter_application_log_critical_error.png)
+<img width="541" height="552" alt="08 Filter Application logs" src="https://github.com/user-attachments/assets/0874b0e3-7518-4697-956a-fd00590afbcf" />
+
 
 > **Red highlight (checkboxes):** Critical and Error checked - same filter levels as the System log.
 >
