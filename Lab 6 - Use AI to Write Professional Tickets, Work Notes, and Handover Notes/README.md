@@ -1,5 +1,14 @@
 # Lab 7: AI-Assisted Ticket and Handover Documentation
 
+> **Author:** Nnamso Mkpong
+>
+> **Domain:** AI Foundations - Claude.ai and ChatGPT for IT Support
+>
+> **Environment:** claude.ai (Free plan) and chat.openai.com (Free plan) - Chrome browser
+>
+> **Completed:** July 2026
+
+
 **AI for Documentation | Claude | Priority: Critical**
 
 ## Objective
@@ -17,31 +26,6 @@ The service desk team leader reviews tickets every week and regularly finds work
 | Claude.ai | Drafting, improving, and standardising ticket documentation |
 | ServiceNow | Logging tickets and applying AI-generated content to live incident records |
 | Markdown / GitHub | Publishing the reusable template library and lab evidence |
-
-## Repository Structure
-
-```
-lab-7-ai-assisted-documentation/
-├── README.md                          <- this file
-├── prompts-log.md                     <- every Claude prompt and response used in this lab
-├── before-and-after.md                <- poor work note vs AI-improved work note
-├── documentation-templates/           <- the five reusable templates
-│   ├── 01-initial-incident-note.md
-│   ├── 02-investigation-update-note.md
-│   ├── 03-escalation-handover-note.md
-│   ├── 04-resolution-note.md
-│   └── 05-closure-note.md
-├── screenshots/                       <- evidence from Claude.ai and ServiceNow
-│   ├── 01-prompt-initial-incident-ticket.png
-│   ├── 02-servicenow-incident-created.png
-│   ├── 03-prompt-improve-work-note.png
-│   ├── 04-servicenow-work-notes-updated.png
-│   ├── 05-prompt-escalation-handover.png
-│   ├── 06-servicenow-escalation-note-added.png
-│   ├── 07-servicenow-resolution-code-and-notes.png
-│   └── 08-prompt-template-library-generation.png
-└── IT_ServiceDesk_Ticket_Templates.docx   <- original Word export of the template library from Claude
-```
 
 ## Steps Performed
 
