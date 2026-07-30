@@ -1,4 +1,4 @@
-# Dual Tool Workflow Diagram — Lab 10
+# Dual Tool Workflow Diagram 
 
 This diagram maps the full lifecycle of INC0010010 across both tools, showing exactly which system was active at each stage and who (analyst or AI) drove the action.
 
