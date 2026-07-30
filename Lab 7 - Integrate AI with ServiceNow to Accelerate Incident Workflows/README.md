@@ -36,7 +36,7 @@ Our service desk has started allowing analysts to keep Claude open alongside Ser
 
 ## The Incident
 
-**INC0010010** — User reports they cannot print to the office network printer, HP LJ 3F 01. Caller is on Windows 11. Printer showed as offline that morning.
+**INC0010010** - User reports they cannot print to the office network printer, HP LJ 3F 01. Caller is on Windows 11. Printer showed as offline that morning.
 ---
 
 ## Step by Step
