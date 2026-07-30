@@ -1,20 +1,27 @@
-# Lab 7: AI-Assisted Ticket and Handover Documentation
+# AI-Assisted Ticket and Handover Documentation
 
 > **Author:** Nnamso Mkpong
 >
+> **Domain:** ** AI for Documentation 
+>
+> **Environment:** Claude
+>
+> **Priority:** Critical
+>
 > **Completed:** July 2026
 
-
-**AI for Documentation | Claude | Priority: Critical**
+---
 
 ## Objective
 
 Use Claude to draft, improve, and standardise ticket descriptions, work notes, and escalation handover notes - demonstrating that AI-assisted documentation produces more consistent, professional records than unassisted writing and reduces the risk of information loss during shift handover.
 
+---
 ## Business Scenario
 
 The service desk team leader reviews tickets every week and regularly finds work notes that are too vague, escalation notes that are missing critical information, and tickets that are closed without a proper resolution summary. This lab uses AI to build a template library and demonstrates how Claude can lift a set of poorly written tickets to a professional standard.
 
+---
 ## Tools Used
 
 | Tool | Purpose |
@@ -23,6 +30,7 @@ The service desk team leader reviews tickets every week and regularly finds work
 | ServiceNow | Logging tickets and applying AI-generated content to live incident records |
 | Markdown / GitHub | Publishing the reusable template library and lab evidence |
 
+---
 ## Steps Performed
 
 ### 1. Generate a professional incident ticket from a raw complaint
@@ -35,6 +43,7 @@ The generated content was then logged directly into ServiceNow. Note the highlig
 
 ![Incident created in ServiceNow, priority discrepancy highlighted](screenshots/02-servicenow-incident-created.png)
 
+---
 ### 2. Improve a poor-quality work note to professional standard
 
 A vague, real-world-style note ("called user, they said its slow, tried turning it off and on, still slow, will look at it later") was sent to Claude for improvement, with a requirement to include what was reported, what was investigated, what action was taken, and the next step.
@@ -47,6 +56,7 @@ The improved note was posted into the ServiceNow work notes field:
 
 The full side-by-side comparison is documented in [`before-and-after.md`](before-and-after.md).
 
+---
 ### 3. Generate an escalation handover note (Tier 1 to Tier 2)
 
 Claude was given an ERP access scenario and asked to produce a full Tier 1-to-Tier 2 handover note, including every troubleshooting step already completed and a clear handover statement.
@@ -57,12 +67,14 @@ The note was added as a work note on the incident, giving Tier 2 a complete pict
 
 ![Escalation handover note recorded in ServiceNow](screenshots/06-servicenow-escalation-note-added.png)
 
+---
 ### 4. Draft a resolution note
 
 Claude produced a resolution note for a corrupted Outlook profile scenario, including a resolution code, a plain-English root cause, and step-by-step resolution actions.
 
 ![Resolution code and resolution notes applied in ServiceNow](screenshots/07-servicenow-resolution-code-and-notes.png)
 
+---
 ### 5. Build a five-template documentation library
 
 Claude was asked to generate five reusable templates covering the full lifecycle of a ticket: initial incident note, investigation update note, escalation handover note, resolution note, and closure note, each with placeholder fields in square brackets.
@@ -71,20 +83,24 @@ Claude was asked to generate five reusable templates covering the full lifecycle
 
 The five templates were converted into individual markdown files and published in [`documentation-templates/`](documentation-templates/). The original Word document Claude generated is also included in this repository as `IT_ServiceDesk_Ticket_Templates.docx` for reference.
 
+---
 ### 6. Validate the templates against real scenarios
 
 Each of the five templates was tested by filling it in against the scenarios generated in Steps 1-4 (the laptop freezing incident, the escalation handover, and the resolution). In every case, the template's structure matched what a senior analyst would expect to see in a well-run service desk: clear ticket metadata, a plain-English summary, a bulleted action trail, and an explicit next step or closing statement. No gaps were found that required additional fields.
 
+---
 ## Full Prompt and Response Log
 
 Every prompt sent to Claude during this lab, along with the full response, is recorded in [`prompts-log.md`](prompts-log.md).
 
+---
 ## Why Documentation Quality Affects Your Career
 
 Poor ticket notes are one of the most common weaknesses flagged in service desk performance reviews. A vague note ("checked it, seems fine now") looks like low effort even when the underlying troubleshooting was thorough, because there is no written evidence of what was actually done. Managers, auditors, and QA reviewers can only judge the quality of your work by what you wrote down - not by what happened in your head during the call.
 
 Weak documentation also has a direct cost during escalation and handover. If a Tier 1 note does not clearly state what was checked, what the result was, and why the issue is being escalated, the receiving analyst has to redo work that has already been completed, which slows down resolution and frustrates the user. Consistently strong documentation, on the other hand, is one of the fastest ways to stand out at review time and during job interviews, because it is concrete, checkable evidence of professionalism, attention to detail, and communication skill - all things that are hard to demonstrate any other way on a CV.
 
+---
 ## How AI Improves Documentation Consistency at Scale
 
 Individual analysts naturally write notes differently: some are terse, some ramble, some skip steps they consider "obvious." At the scale of a whole service desk team, this creates wide variation in ticket quality, making it hard for team leads to audit work or for new analysts to know what "good" looks like.
@@ -97,6 +113,7 @@ Using Claude as a standardisation layer solves this in three ways:
 
 The result is a documentation standard that scales across a team of any size, without requiring additional training time from the team lead.
 
+---
 ## How to Validate This Lab
 
 - [x] Five documentation templates published in [`documentation-templates/`](documentation-templates/)
