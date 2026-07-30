@@ -1,4 +1,4 @@
-# Ticket Notes — INC0010010
+# Ticket Notes - INC0010010
 
 This file records the exact ServiceNow ticket state and the exact text posted into the ticket at each stage of the incident lifecycle. All text below was drafted with Claude assistance, reviewed by the analyst, then posted into ServiceNow manually.
 
