@@ -1,4 +1,4 @@
-# Prompt Logs — Lab 10: AI Augmented ServiceNow Incident Workflow
+# Prompt Logs: AI Augmented ServiceNow Incident Workflow
 
 This file contains every prompt sent to Claude during INC0010010, in the order they were sent, along with the full response received. Screenshots of each exchange are included for verification.
 
