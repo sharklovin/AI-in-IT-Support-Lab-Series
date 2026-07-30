@@ -18,7 +18,7 @@ This file records the exact ServiceNow ticket state and the exact text posted in
 
 ---
 
-## Activity 1 — Work Note: Isolated Issue Confirmed
+## Activity 1 - Work Note: Isolated Issue Confirmed
 
 **Posted:** 2026-07-29 09:10:08
 **State at time of posting:** New
@@ -31,7 +31,7 @@ This file records the exact ServiceNow ticket state and the exact text posted in
 
 ---
 
-## Activity 2 — Work Note: Investigation Update and State Change
+## Activity 2 - Work Note: Investigation Update and State Change
 
 **Posted:** 2026-07-29 11:40:03
 **State changed to:** In Progress
@@ -48,7 +48,7 @@ This file records the exact ServiceNow ticket state and the exact text posted in
 
 ---
 
-## Activity 3 — Resolution Note and State Change
+## Activity 3 - Resolution Note and State Change
 
 **Posted:** 2026-07-29 11:47:33
 **State changed to:** Resolved
