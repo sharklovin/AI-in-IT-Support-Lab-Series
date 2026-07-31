@@ -1,4 +1,4 @@
-# Prompt Logs — Lab 11: AI Assisted PowerShell Scripting for Active Directory Administration
+# Prompt Logs: AI Assisted PowerShell Scripting for Active Directory Administration
 
 This file contains every prompt sent to Claude during this lab, in the order they were sent, along with the full response received. Screenshots of each exchange are included for verification. Full script contents are in the [scripts](./scripts) folder rather than repeated here in full.
 
