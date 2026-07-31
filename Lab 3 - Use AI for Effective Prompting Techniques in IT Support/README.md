@@ -1,6 +1,15 @@
-# Lab 3: Advanced Prompting Techniques for IT Support
+# Advanced Prompting Techniques for IT Support
 
-**AI Foundations | Claude | Priority: High**
+> **Author:** Nnamso Mkpong
+>
+> **Domain:** AI Foundations - Claude for IT Support Diagnosis
+>
+> **Environment:** Claude
+>
+> ** Priority:** High
+>
+> **Completed:** May 2026
+
 
 ---
 
@@ -255,4 +264,4 @@ Prompting skill is also transferable. The techniques in this lab apply to any AI
 
 ---
 
-*Lab 3 - AI Foundations | Claude.ai | Documented for team training purposes*
+*AI Foundations | Claude.ai | Documented for team training purposes*
