@@ -1,6 +1,15 @@
-# Lab 11: AI Assisted PowerShell Scripting for Active Directory Administration
+# AI Assisted PowerShell Scripting for Active Directory Administration
 
-**Track:** AI + Systems Administration | **Tools:** Claude + PowerShell + Active Directory | **Priority:** High
+> **Author:** Nnamso Mkpong
+>
+> **Track:** AI + Systems Administration
+>
+> **Tools:** Claude + PowerShell + Active Directory 
+>
+> **Priority:** High
+>
+> **Completed:** July 2026
+
 
 ## Objective
 
@@ -55,7 +64,8 @@ PowerShell ISE was launched with Run as Administrator, since resetting an AD pas
 
 Before running the script, the target test account, Jayson Sule, username Jayson419, was confirmed in Active Directory Users and Computers so the reset could be verified against a known account.
 
-![Lab account confirmed in Active Directory](./screenshots/04_lab_account_in_active_directory.png)
+<img width="850" height="628" alt="04 using one of the account in my lab environ" src="https://github.com/user-attachments/assets/37df601e-1482-4486-80ff-51f61f7f5b88" />
+
 
 **Step 5: Navigate to the script directory and prepare to run it**
 
