@@ -1,4 +1,4 @@
-# Case Evaluations — Lab 11: AI Assisted PowerShell Scripting for Active Directory Administration
+# Case Evaluations: AI Assisted PowerShell Scripting for Active Directory Administration
 
 This file evaluates how well Claude performed on each of the three scripting tasks in this lab, judged against correctness, safety, and how much editing was needed before the script could be trusted to run.
 
