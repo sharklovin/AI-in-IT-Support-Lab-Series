@@ -1,4 +1,4 @@
-# Script Logs — Lab 11: AI Assisted PowerShell Scripting for Active Directory Administration
+# Script Logs: AI Assisted PowerShell Scripting for Active Directory Administration
 
 This file records the exact console output and results produced when each script was run in the lab environment. All output below is copied directly from the PowerShell ISE console.
 
