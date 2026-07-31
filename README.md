@@ -1,4 +1,4 @@
-# AI in IT-Support Lab Series
+# AI in IT Support Lab Series
 
 **Author:** Nnamso Mkpong
 
