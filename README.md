@@ -8,7 +8,9 @@
 
 This is my personal AI in IT Support lab portfolio. Each lab was built and documented by me as a research infusing Ai into help desk, service desk, and desktop support roles that increasingly require AI literacy.
 
-The repository contains 8 completed labs covering AI foundations, diagnostics, documentation, and ITSM integration. Every lab folder holds: the full written walkthrough in README.md, case_evaluations.md, prompt_logs.md, script_logs.md, evidence files with detailed documentation, and a screenshots folder with annotated evidence from the actual lab session.
+The repository contains 8 completed labs covering AI foundations, diagnostics, documentation, and ITSM integration. The lab has the full walkthrough which includes: case evaluations, prompt logs, script logs, workflow diagrams, prompting cheat sheets, extracted system errors, log-analysis findings, sample event logs, Ticket Templates and annotated screenshots from the actual session.
+
+
 
 ---
 ## License
